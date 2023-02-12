@@ -3,7 +3,6 @@ GO_VERSION := 1.20rc3
 setup:
 	install-go
 	init-go
-	upgrade-go
 
 install-go:
 	sudo wget "https://golang.org/dl/go$(GO_VERSION).linux-amd64.tar.gz"
