@@ -10,4 +10,9 @@ func main() {
 	fmt.Printf("%.3f\n", third)
 	fmt.Printf("%4.2f\n", third)
 
+	var green uint8 = 3
+	fmt.Printf("%08b\n", green)
+	green++
+	fmt.Printf("%08b\n", green)
+
 }
